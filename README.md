@@ -26,18 +26,13 @@ A clean, specialized Discord bot template designed to interact with a local Olla
     - Set your `OLLAMA_MODEL` (e.g., `gemma:2b`, `llama2`).
 4.  **Run the Bot**:
     ```bash
-    npm start
+    node src/index.js
     ```
 
 ## Usage
 - Use `/ask` to chat with the AI.
 - Example: `/ask prompt: "Tell me a joke"`
 
-## Manual Testing
-You can test the AI connection without Discord using the included script:
-```bash
-node manual_request.js "Your test prompt"
-```
 
 ## Customization
 - **Change Model**: Update `OLLAMA_MODEL` in `.env`.
