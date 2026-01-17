@@ -1,0 +1,27 @@
+{
+    "name": "ai-discord-bot-template",
+    "version": "1.0.0",
+    "description": "A Discord bot template integrated with Ollama for local AI.",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "ai",
+        "ollama",
+        "local-ai"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "commandkit": "^0.1.6",
+        "discord.js": "^14.14.0",
+        "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.0"
+    }
+}
